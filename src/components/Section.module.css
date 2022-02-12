@@ -1,0 +1,22 @@
+.section {
+  margin-left: 30px;
+  padding: 10px;
+  background-color: burlywood;
+  width: 240px;
+}
+.section:first-of-type {
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+.section:last-of-type {
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+.section:first-child {
+  margin-top: 20px;
+}
+
+.title {
+  margin-top: 0;
+  font-size: 20px;
+}
