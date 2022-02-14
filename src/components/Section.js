@@ -6,14 +6,14 @@ const Section = ({title,children}) => {
     return (
         <div className={s.section}>
             <h2 className={s.title}>{title}</h2>
-{children}
+        {children}
         </div>
     )
 }
 
 Section.propTypes = {
     title: PropTypes.string.isRequired,
-    children: PropTypes.elementType
+    children: PropTypes.element.isRequired,
 }
 
 export default Section;
